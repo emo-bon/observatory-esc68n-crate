@@ -1582,7 +1582,7 @@
 <file:///github/workspace/> a schema1:Dataset ;
     dct:conformsTo <https://data.emobon.embrc.eu/observatory-profile/latest> ;
     schema1:contactPoint <https://ror.org/0038zss60> ;
-    schema1:datePublished "2025-04-01T08:40:13+00:00" ;
+    schema1:datePublished "2025-04-10T14:03:54+00:00" ;
     schema1:description "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory ESC68N" ;
     schema1:hasPart <file:///github/workspace/README.md>,
         <file:///github/workspace/data-quality-control/>,
@@ -1770,6 +1770,109 @@
     schema1:encodingFormat "text/csv" ;
     schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
         "https://rs.tdwg.org/terms/Event" .
+
+<http://data.emobon.embrc.eu/observatory-esc68n-crate/water/sample/> a prov:Entity,
+        sosa:Sample ;
+    dct:description ""^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name ""^^xsd:string ] ;
+    prov:wasGeneratedBy <http://data.emobon.embrc.eu/observatory-esc68n-crate/water/sample/> ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-esc68n-crate/water/sampling-event/> ;
+    emobon-sampling:bioCommunity ""^^xsd:string ;
+    emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
+    emobon-sampling:environmentMaterial ""^^xsd:anyURI ;
+    emobon-sampling:failureComment ""^^xsd:string ;
+    emobon-sampling:filtrationTime [ a qudt:QuantityValue ;
+            qudt:numericValue ""^^xsd:string ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UHOR/> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue ""^^xsd:string ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UHOR/> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue ""^^xsd:string ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UHOR/> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue ""^^xsd:string ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UHOR/> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue ""^^xsd:string ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UHOR/> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue ""^^xsd:string ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UHOR/> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue ""^^xsd:string ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UHOR/> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue ""^^xsd:string ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UHOR/> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue ""^^xsd:string ;
+            qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UHOR/> ] ;
+    emobon-sampling:investigationType ""^^xsd:string ;
+    emobon-sampling:origEmobonId "EMO BON ESC68N Wa 250217  0.2um 1"^^xsd:string,
+        "EMO BON ESC68N Wa 250217  0.2um 2"^^xsd:string,
+        "EMO BON ESC68N Wa 250217  0.2um 3"^^xsd:string,
+        "EMO BON ESC68N Wa 250217  0.2um 4"^^xsd:string,
+        "EMO BON ESC68N Wa 250217  3um 2"^^xsd:string,
+        "EMO BON ESC68N Wa 250217  3um 3"^^xsd:string,
+        "EMO BON ESC68N Wa 250217  3um 4"^^xsd:string,
+        "EMO BON ESC68N Wa 250217  3um blank"^^xsd:string,
+        "EMO BON ESC68N Wa 250217 0.2um blank"^^xsd:string ;
+    emobon-sampling:taxonomicID ""^^xsd:anyURI ;
+    emobon-sampling:taxonomicName ""^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-esc68n-crate/water/sample/EMOBON_ESC68N_Wa_10> a prov:Entity,
         sosa:Sample ;

@@ -21,9 +21,9 @@
     
     sosa:isResultOf </observatory-esc68n-crate/water/sampling-event/> ;
     
-    emobon-sampling:origEmobonId 'EMO BON ESC68N Wa 250217  3um 3'^^xsd:string ; 
+    emobon-sampling:origEmobonId 'EMO BON ESC68N Wa 250429  3um 3'^^xsd:string ; 
     
-    dct:description ''^^xsd:string ;
+    dct:description 'EMOBON metagenome water sample from station ESC68N collected on  size fraction um'^^xsd:string ;
     emobon-sampling:enaSampleAccNum ''^^xsd:anyURI ;
     emobon-sampling:failureComment ''^^xsd:string ;
     
@@ -33,10 +33,10 @@
         qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UHOR/> ;
     ] ;
     
-    emobon-sampling:environmentMaterial ''^^xsd:anyURI;
-    emobon-sampling:investigationType ''^^xsd:string ;
-    emobon-sampling:taxonomicID ''^^xsd:anyURI ;
-    emobon-sampling:taxonomicName ''^^xsd:string ;
+    emobon-sampling:environmentMaterial 'seawater%20%5BENVO:00002149%5D'^^xsd:anyURI, 'coastal%20sea%20water%20%5BENVO:00002150%5D'^^xsd:anyURI, 'surface%20water%20%5BENVO:00002042%5D'^^xsd:anyURI;
+    emobon-sampling:investigationType 'metagenome'^^xsd:string ;
+    emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687'^^xsd:anyURI ;
+    emobon-sampling:taxonomicName 'marine plankton metagenome'^^xsd:string ;
     emobon-sampling:bioCommunity ''^^xsd:string ;
 
     
